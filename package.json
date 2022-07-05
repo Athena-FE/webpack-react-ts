@@ -3,7 +3,7 @@
     "private": true,
     "version": "1.0.0",
     "scripts": {
-        "dev": "webpack serve --open",
+        "dev": "npm run lint && webpack serve --open",
         "build": "webpack --mode=production --node-env=production",
         "lint": "eslint --fix ./src/",
         "base:commit": "commit",
